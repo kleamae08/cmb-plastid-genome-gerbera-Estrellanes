@@ -403,96 +403,72 @@ The following evidence should be included in the `figures/` folder:
 
 The GitHub repository is organized into separate folders for the source data, analysis results, figures, and final report.
 
-```text
-cmb-plastid-genome-gerbera-Estrellanes/
-│
-├── README.md
-│
-├── data/
-│   ├── Gerbera_jamesonii_NC_046760.1.fasta
-│   └── NC_046760.1_GenBank.gb
-│
-├── results/
-│   ├── plastid_genome_summary.md
-│   └── gene_summary.md
-│
-├── figures/
-│   └── galaxy_fasta_statistics.png
-│
-└── report/
-    └── final_report.md```
+    cmb-plastid-genome-gerbera-Estrellanes/
+    ├── README.md
+    ├── data/
+    │   ├── Gerbera_jamesonii_NC_046760.1.fasta
+    │   └── NC_046760.1_GenBank.gb
+    ├── results/
+    │   ├── plastid_genome_summary.md
+    │   └── gene_summary.md
+    ├── figures/
+    │   └── galaxy_fasta_statistics.png
+    └── report/
+        └── final_report.md
+
+The large original genome sequence should only be uploaded if appropriate for the course repository and GitHub file-size limits. The README and results should provide enough information to reproduce and understand the analysis.
 
 # 17. Reproducibility
 
-The analysis can be repeated by another student using the same NCBI accession and Galaxy workflow.
+Another student can repeat this analysis by:
 
-### Steps to Reproduce the Analysis
-
-1. Open the NCBI Nucleotide database.
-2. Search for accession **NC_046760.1**.
-3. Confirm that the record is *Gerbera jamesonii* chloroplast, complete genome.
-4. Download the FASTA sequence.
-5. Download or save the annotated GenBank/RefSeq record.
-6. Open Galaxy.
-7. Create a new history named `Plastid_Gerbera_<Surname>`.
-8. Upload the FASTA sequence.
-9. Rename the dataset `Gerbera_jamesonii_NC_046760.1`.
-10. Run **Fasta Statistics — Galaxy Version 2.0**.
-11. Record the genome length, number of sequence records, GC content, and number of gaps.
-12. Examine the annotated NCBI record for genes, CDS features, tRNAs, rRNAs, introns, pseudogenes, and repeat regions.
-13. Record the LSC, SSC, and IR regions.
-14. Compare the plastid genome with mitochondrial genomes using reliable references.
-15. Document the results in the GitHub repository.
-
-### Reproducibility Information
-
-- **Organism:** *Gerbera jamesonii*
-- **Accession:** NC_046760.1
-- **Genome size:** 151,898 bp
-- **Galaxy History:** `Plastid_Gerbera_Estrellanes`
-- **Galaxy Dataset:** `Gerbera_jamesonii_NC_046760.1`
-- **GC content:** 37.74%
-- **Sequence records:** 1
-- **Number of gaps:** 0
+1. Opening NCBI Nucleotide.
+2. Searching for accession **NC_046760.1**.
+3. Downloading the FASTA sequence and annotated GenBank/RefSeq record.
+4. Creating a Galaxy history named according to the instructor's required format.
+5. Uploading the FASTA sequence.
+6. Running a FASTA/sequence statistics tool.
+7. Recording the sequence length, number of records, GC content, and gap count.
+8. Examining the annotated GenBank record for gene features, RNA genes, introns, pseudogenes, and repeat regions.
+9. Comparing the resulting observations with the values documented in this README.
 
 # 18. Conclusion
 
-The complete chloroplast genome of *Gerbera jamesonii*, accession **NC_046760.1**, was characterized using the NCBI annotated genome record and Galaxy sequence statistics. The plastid genome is **151,898 bp** long, circular, and contains the typical **LSC–IR–SSC–IR** organization.
+The complete chloroplast genome of *Gerbera jamesonii* accession NC_046760.1 was characterized using NCBI annotation and Galaxy sequence statistics. The genome is a circular, full-length plastid sequence of **151,898 bp** with a **37.74% GC content** in the Galaxy analysis and one sequence record without gaps.
 
-The genome contains an **LSC region of 83,518 bp**, an **SSC region of 18,244 bp**, and two **IR regions of 25,068 bp each**. Galaxy analysis showed a **37.74% GC content**, one sequence record, and zero gaps.
+The plastome has the typical **LSC–IR–SSC–IR** organization, with an LSC of **83,518 bp**, an SSC of **18,244 bp**, and two IRs of **25,068 bp each**. The current NCBI annotation contains numerous protein-coding, tRNA, and rRNA features, as well as intron-containing genes, trans-spliced *rps12*, pseudogene-marked features, and duplicated genes associated with the inverted repeats.
 
-The annotation contains genes involved in photosynthesis, ATP production, electron transport, transcription, translation, RNA processing, and other chloroplast functions. The genome also contains tRNA and rRNA genes, intron-containing genes, pseudogene-marked features, and duplicated genes associated with the inverted-repeat regions.
+Overall, the analysis demonstrates how a complete plastid genome can be retrieved from a public database, characterized computationally using Galaxy, and interpreted using genome annotation. Plastid genomes provide valuable information for plant systematics, phylogenetics, species identification, comparative genomics, and studies of plastid evolution, while nuclear genomes remain necessary for questions involving the broader genetic basis of complex traits and genome-wide variation.
 
-Overall, this activity demonstrated how a complete plastid genome can be retrieved from a public database, analyzed using Galaxy, and characterized using genome annotations. Plastid genomes are useful for plant identification, phylogenetic analysis, comparative genomics, plant systematics, and studies of organelle genome evolution. However, plastid genomes represent only one organelle and therefore cannot provide the complete genetic information of the organism. For questions involving genome-wide variation or complex traits, nuclear genomic data may be more appropriate.
+# 19. References and Links
 
----
-
-# 19. References
-
-1. Zhang, Y.-Y., Liu, F., Wang, X.-Q., Shi, X.-B., Tian, N., Lai, Z.-X., & Cheng, C.-Z. (2019). Characterization of the complete chloroplast genome of *Gerbera jamesonii* Bolus in China and phylogenetic relationships. *Mitochondrial DNA Part B: Resources, 4*(2), 2706–2707.  
-   https://doi.org/10.1080/23802359.2019.1644230
-
-2. NCBI Nucleotide. *Gerbera jamesonii* chloroplast, complete genome. Accession **NC_046760.1**.  
+1. **NCBI Nucleotide/RefSeq.** *Gerbera jamesonii* chloroplast, complete genome. Accession NC_046760.1.  
    https://www.ncbi.nlm.nih.gov/nuccore/NC_046760.1
 
-3. National Center for Biotechnology Information (NCBI). GenBank Database.  
-   https://www.ncbi.nlm.nih.gov/genbank/
+2. **Zhang, Y.-Y., Liu, F., Wang, X.-Q., Shi, X.-B., Tian, N., Lai, Z.-X., & Cheng, C.-Z. (2019).** Characterization of the complete chloroplast genome of *Gerbera jamesonii* Bolus in China and phylogenetic relationships. *Mitochondrial DNA Part B: Resources, 4*(2), 2706–2707.  
+   https://doi.org/10.1080/23802359.2019.1644230
 
-4. National Center for Biotechnology Information (NCBI). Nucleotide Database.  
-   https://www.ncbi.nlm.nih.gov/nuccore/
-
-5. Galaxy Project. Galaxy: An open, web-based platform for accessible, reproducible, and collaborative data analysis.  
+3. **Galaxy Project.** Galaxy platform used for sequence analysis.  
    https://usegalaxy.org/
 
----
+4. **NCBI GenBank.** Sequence and annotation database.  
+   https://www.ncbi.nlm.nih.gov/genbank/
+
+5. **NCBI Nucleotide.** Public nucleotide sequence database.  
+   https://www.ncbi.nlm.nih.gov/nuccore/
+
+6. **Aoyagi, Y. B., et al. (2026).** Chromosome-level genome assembly of the Gerbera (*Gerbera hybrida*) using HiFi long-read and Hi-C technologies. *DNA Research*, 33(1). This reference provides a recent example of organellar-genome comparison in *Gerbera*.
 
 # 20. Repository Information
 
-- **GitHub Repository:** `cmb-plastid-genome-gerbera-Estrellanes`
-- **GitHub Username:** `kleamae08`
-- **Selected Organism:** *Gerbera jamesonii*
-- **NCBI Accession:** `NC_046760.1`
-- **Galaxy History:** `Plastid_Gerbera_Estrellanes`
-- **Date Retrieved:** September 30, 2026
-- **Course:** Cell & Molecular Biology
-- **Section:** B
+**GitHub repository:** `cmb-plastid-genome-gerbera-Estrellanes`
+
+**GitHub username:** `kleamae08`
+
+**Selected organism:** *Gerbera jamesonii*
+
+**NCBI accession:** NC_046760.1
+
+**Galaxy history:** `Plastid_Gerbera_Estrellanes`
+
+**Date retrieved:** September 30, 2026

@@ -410,22 +410,15 @@ The following screenshots document the genome retrieval and Galaxy analysis.
 
 # 16. Repository Organization
 
-The GitHub repository is organized into separate folders for the source data, analysis results, figures, and final report.
+The GitHub repository contains the README, source genome sequence, screenshots used as analysis evidence, and the final report.
 
     cmb-plastid-genome-gerbera-Estrellanes/
     ├── README.md
-    ├── data/
-    │   ├── Gerbera_jamesonii_NC_046760.1.fasta
-    │   └── NC_046760.1_GenBank.gb
-    ├── results/
-    │   ├── plastid_genome_summary.md
-    │   └── gene_summary.md
-    ├── figures/
-    │   └── galaxy_fasta_statistics.png
-    └── report/
-        └── final_report.md
+    ├── Gerbera_jamesonii_NC_046760.1.fasta
+    ├── ncbi_complete_genome.png
+    ├── Galaxy History.png
+    └── Fasta Stats Result.jpg
 
-The large original genome sequence should only be uploaded if appropriate for the course repository and GitHub file-size limits. The README and results should provide enough information to reproduce and understand the analysis.
 
 # 17. Reproducibility
 

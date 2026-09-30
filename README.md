@@ -391,15 +391,15 @@ The following screenshots document the genome retrieval and Galaxy analysis.
 
 ### NCBI Complete Genome Record
 
-![NCBI Complete Genome Record](figures/ncbi_complete_genome.png)
+![NCBI Complete Genome Record](ncbi_complete_genome.png)
 
 ### Galaxy History and Uploaded Genome
 
-![Galaxy History and Uploaded Genome](figures/galaxy_history.png)
+![Galaxy History and Uploaded Genome](Galaxy%20History.png)
 
 ### Galaxy Fasta Statistics Result
 
-![Galaxy Fasta Statistics Result](figures/galaxy_fasta_statistics.png)
+![Galaxy Fasta Statistics Result](Fasta%20Stats%20Result.jpg)
 
 - Genome length: 151,898 bp
 - Sequence records: 1

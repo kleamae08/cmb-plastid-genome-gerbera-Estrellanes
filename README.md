@@ -387,11 +387,20 @@ The analysis followed these steps:
 
 # 15. Evidence and Figures
 
-The following evidence should be included in the `figures/` folder:
+The following screenshots document the genome retrieval and Galaxy analysis.
 
-- Galaxy history showing `Plastid_Gerbera_Estrellanes`
-- Uploaded dataset `Gerbera_jamesonii_NC_046760.1`
-- Fasta Statistics result
+### NCBI Complete Genome Record
+
+![NCBI Complete Genome Record](figures/ncbi_complete_genome.png)
+
+### Galaxy History and Uploaded Genome
+
+![Galaxy History and Uploaded Genome](figures/galaxy_history.png)
+
+### Galaxy Fasta Statistics Result
+
+![Galaxy Fasta Statistics Result](figures/galaxy_fasta_statistics.png)
+
 - Genome length: 151,898 bp
 - Sequence records: 1
 - GC content: 37.74%

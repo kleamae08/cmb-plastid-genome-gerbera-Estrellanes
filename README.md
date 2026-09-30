@@ -420,7 +420,7 @@ cmb-plastid-genome-gerbera-Estrellanes/
 │   └── galaxy_fasta_statistics.png
 │
 └── report/
-    └── final_report.md
+    └── final_report.md```
 
 # 17. Reproducibility
 

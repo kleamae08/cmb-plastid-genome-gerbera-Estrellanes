@@ -40,8 +40,7 @@ OGDRAW was used to generate a circular plastid genome map from the annotated Gen
 
 ## Plastid Genome Map
 
-![Plastid genome map](figures/Gerbera_jamesonii_plastid_map.png)
-
+![Plastid genome map](figures/Gerbera_jamesonii_plastid_map.png_page-0001.jpg)
 ## Structural Features
 
 The chloroplast genome of *Gerbera jamesonii* is 151,898 bp long and has the typical quadripartite plastid genome organization consisting of a large single-copy (LSC) region, a small single-copy (SSC) region, and two inverted repeat regions (IRa and IRb). The LSC region extends from 1–83,518 bp, IRb from 83,519–108,586 bp, the SSC from 108,587–126,830 bp, and IRa from 126,831–151,898 bp. The genome map displays protein-coding genes, tRNA genes, rRNA genes, gene orientation, inverted-repeat regions, and the GC-content graph.
